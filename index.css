@@ -1,0 +1,23 @@
+* {
+    padding: 5px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    flex: content;
+    align-items: ;
+}
+
+section {
+    background-color: blue;
+}
+
+.p1 {
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
