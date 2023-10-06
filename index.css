@@ -1,23 +1,55 @@
 * {
-    padding: 5px;
+    padding: 0;
     margin: 0;
 }
 
-nav ul {
-    list-style-type: none;
-    flex: content;
-    align-items: ;
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    padding: 5px;
 }
 
-section {
-    background-color: blue;
-}
+    nav ul {
+        list-style-type: none;
+        background-color: black;
+        text-align: right;
+    }
+
+    nav li {
+        display: inline-block;
+        color: white;
+        padding: 10px;
+    }
+
+    nav li:hover {
+        background-color: white;
+        color: black;
+    }
+
+    section {
+        background-color: blue;
+    }
 
 .p1 {
-    
+    font-weight: bold;
 }
 
 footer {
     background-color: black;
+    display: flex;
     color: white;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
 }
